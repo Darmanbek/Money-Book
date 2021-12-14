@@ -1,0 +1,2 @@
+rootProject.name = "MyDolgiy"
+include ':app'
