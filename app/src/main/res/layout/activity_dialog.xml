@@ -50,6 +50,7 @@
         app:layout_constraintTop_toTopOf="parent">
 
         <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/input_edit_name"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:background="@color/white"
@@ -68,6 +69,7 @@
         app:layout_constraintTop_toBottomOf="@id/input_name">
 
         <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/input_edit_message"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:background="@color/white"
@@ -86,8 +88,10 @@
         app:layout_constraintTop_toBottomOf="@id/input_message">
 
         <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/input_edit_summa"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:inputType="number"
             android:background="@color/white"
             />
 
@@ -104,6 +108,7 @@
         app:layout_constraintTop_toBottomOf="@id/input_sum">
 
         <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/input_edit_comment"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:background="@color/white"

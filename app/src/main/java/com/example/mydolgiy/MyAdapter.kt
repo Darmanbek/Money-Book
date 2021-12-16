@@ -7,7 +7,7 @@ import androidx.recyclerview.widget.RecyclerView
 import kotlinx.android.synthetic.main.activity_main.view.*
 import kotlinx.android.synthetic.main.activity_view.view.*
 
-class MyAdapter(val activity: MainActivity): RecyclerView.Adapter<MyViewHolder>() {
+class MyAdapter(): RecyclerView.Adapter<MyViewHolder>() {
 
     var list:MutableList<User> = mutableListOf()
     set(value) {
@@ -21,7 +21,7 @@ class MyAdapter(val activity: MainActivity): RecyclerView.Adapter<MyViewHolder>(
     }
 
     override fun onBindViewHolder(holder: MyViewHolder, position: Int) {
-        holder.populateModel(list[position],activity)
+        holder.populateModel(list[position])
     }
 
     override fun getItemCount(): Int = list.size
