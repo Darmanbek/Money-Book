@@ -1,10 +1,9 @@
 package com.example.mydolgiy
 
-import org.w3c.dom.Comment
 
 class User(
-    var name:String,
-    var message:String,
-    var sum:String,
-    var comment: String
+    var name:String,//имя
+    var message:String,//Сообщение
+    var sum:String,//Сумма
+    var comment:String//Комментарий
 )
